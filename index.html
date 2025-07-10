@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/43487f27c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>B.Tech studenbt</p>
+                <h1>Hi, I'am <br><span>Anandhu saji</span> <br>from RIT Kottayam</h1>
+            </div>
+        </div>
+    </div>
+ <!--------------About section------ --> 
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="3.png">
+                </div>
+                <div class="About-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'am a First year B-tech student at Rajiv Gandhi Institute of technology kottayam, <br> spevilziing in Robotics and Artificial intelligence 
+                       I'm passonate about exploringintelligent<br>system  and developing innovative solutions through coding.the spcae showcase my journey
+                    ,<br>projects and interestin the world of robotics and ai</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"  id="Skills">
+                        <ul>
+                            <li><span>Programming language</span><br>java script,phython,css,HTML,<br>C-programme,C++ proggramme</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="Experience">
+                        <ul>
+                            <li><span>Automatic bell system</span><br>designed a bell system controlled by an ardiuno <br>rings a predefined time</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="Education">
+                        <ul>
+                            <li><span></span><br>SSLC</li>
+                            <li><span></span><br>PLUSE TWO</li>
+                            <li><span></span><br>Currently Studying B-Tech</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------services------ ------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p></p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Computer vision & Object Detection</h2>
+                    <p></p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Robotics Programming</h2>
+                    <p></p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio-------------- -->
+    <div  id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="8.jpg" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="7.jpg" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p> </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="9.jpg" >
+                    <div class="layer">
+                        <h3>online App</h3>
+                        <p> </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------contact section----------->   
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>anandhu960530@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>9605305738</p>
+                    <div class="social-icons">
+                        <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/anandhu41.48?igsh=MTJkeno5NmowNTZuZA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anandhu-saji-1481a1345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="mycv.pdf.pdf"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder=" Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>              
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>Anandhu made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+     </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+
+        var sidemeu =document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+
+
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzMLzyf-C5xXG-9--QGV5SV_MXzSpd1hPQ26Gvp088mRLLv3GlW6RtB5V7cVBhc8fpr/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message sent  successfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
